@@ -23,7 +23,7 @@ exports.createPages = async ({ actions, graphql }) => {
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
-      component: path.resolve(`src/pages/template.tsx`),
+      component: path.resolve(`src/pages/template.js`),
     })
   })
 }

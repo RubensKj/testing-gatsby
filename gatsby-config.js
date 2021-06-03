@@ -1,7 +1,7 @@
+const siteMetadata = require(`./config/metadata`);
+
 module.exports = {
-  siteMetadata: {
-    title: "My Gatsby Test Site",
-  },
+  siteMetadata,
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
